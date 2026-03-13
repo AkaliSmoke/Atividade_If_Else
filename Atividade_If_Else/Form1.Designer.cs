@@ -38,11 +38,12 @@
             this.btnCalcularAumento = new System.Windows.Forms.Button();
             this.txtCampo2 = new System.Windows.Forms.TextBox();
             this.txtCampo3 = new System.Windows.Forms.TextBox();
+            this.txtCampo4 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtCampo1
             // 
-            this.txtCampo1.Location = new System.Drawing.Point(12, 103);
+            this.txtCampo1.Location = new System.Drawing.Point(17, 115);
             this.txtCampo1.Name = "txtCampo1";
             this.txtCampo1.Size = new System.Drawing.Size(361, 20);
             this.txtCampo1.TabIndex = 0;
@@ -51,18 +52,18 @@
             // lbResultado
             // 
             this.lbResultado.AutoSize = true;
-            this.lbResultado.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbResultado.Font = new System.Drawing.Font("Cambria", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbResultado.ForeColor = System.Drawing.Color.DarkGreen;
-            this.lbResultado.Location = new System.Drawing.Point(134, 9);
+            this.lbResultado.Location = new System.Drawing.Point(135, 9);
             this.lbResultado.Name = "lbResultado";
-            this.lbResultado.Size = new System.Drawing.Size(113, 22);
+            this.lbResultado.Size = new System.Drawing.Size(120, 23);
             this.lbResultado.TabIndex = 1;
             this.lbResultado.Text = "RESULTADO";
             this.lbResultado.Click += new System.EventHandler(this.lbResultado_Click);
             // 
             // btnVerificarNumero
             // 
-            this.btnVerificarNumero.Location = new System.Drawing.Point(12, 142);
+            this.btnVerificarNumero.Location = new System.Drawing.Point(17, 141);
             this.btnVerificarNumero.Name = "btnVerificarNumero";
             this.btnVerificarNumero.Size = new System.Drawing.Size(116, 53);
             this.btnVerificarNumero.TabIndex = 2;
@@ -72,7 +73,7 @@
             // 
             // btnDeterminarMaior
             // 
-            this.btnDeterminarMaior.Location = new System.Drawing.Point(134, 142);
+            this.btnDeterminarMaior.Location = new System.Drawing.Point(139, 141);
             this.btnDeterminarMaior.Name = "btnDeterminarMaior";
             this.btnDeterminarMaior.Size = new System.Drawing.Size(113, 53);
             this.btnDeterminarMaior.TabIndex = 3;
@@ -82,7 +83,7 @@
             // 
             // btnValidarLetra
             // 
-            this.btnValidarLetra.Location = new System.Drawing.Point(253, 142);
+            this.btnValidarLetra.Location = new System.Drawing.Point(258, 141);
             this.btnValidarLetra.Name = "btnValidarLetra";
             this.btnValidarLetra.Size = new System.Drawing.Size(120, 53);
             this.btnValidarLetra.TabIndex = 4;
@@ -92,7 +93,7 @@
             // 
             // btnConsultarMes
             // 
-            this.btnConsultarMes.Location = new System.Drawing.Point(12, 201);
+            this.btnConsultarMes.Location = new System.Drawing.Point(17, 200);
             this.btnConsultarMes.Name = "btnConsultarMes";
             this.btnConsultarMes.Size = new System.Drawing.Size(116, 53);
             this.btnConsultarMes.TabIndex = 7;
@@ -102,7 +103,7 @@
             // 
             // btnCalcularMedia
             // 
-            this.btnCalcularMedia.Location = new System.Drawing.Point(134, 201);
+            this.btnCalcularMedia.Location = new System.Drawing.Point(139, 200);
             this.btnCalcularMedia.Name = "btnCalcularMedia";
             this.btnCalcularMedia.Size = new System.Drawing.Size(113, 53);
             this.btnCalcularMedia.TabIndex = 6;
@@ -112,7 +113,7 @@
             // 
             // btnCalcularAumento
             // 
-            this.btnCalcularAumento.Location = new System.Drawing.Point(253, 201);
+            this.btnCalcularAumento.Location = new System.Drawing.Point(258, 200);
             this.btnCalcularAumento.Name = "btnCalcularAumento";
             this.btnCalcularAumento.Size = new System.Drawing.Size(120, 53);
             this.btnCalcularAumento.TabIndex = 5;
@@ -122,17 +123,24 @@
             // 
             // txtCampo2
             // 
-            this.txtCampo2.Location = new System.Drawing.Point(12, 77);
+            this.txtCampo2.Location = new System.Drawing.Point(17, 89);
             this.txtCampo2.Name = "txtCampo2";
             this.txtCampo2.Size = new System.Drawing.Size(361, 20);
             this.txtCampo2.TabIndex = 8;
             // 
             // txtCampo3
             // 
-            this.txtCampo3.Location = new System.Drawing.Point(12, 51);
+            this.txtCampo3.Location = new System.Drawing.Point(17, 63);
             this.txtCampo3.Name = "txtCampo3";
             this.txtCampo3.Size = new System.Drawing.Size(361, 20);
             this.txtCampo3.TabIndex = 9;
+            // 
+            // txtCampo4
+            // 
+            this.txtCampo4.Location = new System.Drawing.Point(17, 37);
+            this.txtCampo4.Name = "txtCampo4";
+            this.txtCampo4.Size = new System.Drawing.Size(361, 20);
+            this.txtCampo4.TabIndex = 10;
             // 
             // Form1
             // 
@@ -140,6 +148,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
             this.ClientSize = new System.Drawing.Size(390, 272);
+            this.Controls.Add(this.txtCampo4);
             this.Controls.Add(this.txtCampo3);
             this.Controls.Add(this.txtCampo2);
             this.Controls.Add(this.btnConsultarMes);
@@ -169,6 +178,7 @@
         private System.Windows.Forms.Button btnCalcularAumento;
         private System.Windows.Forms.TextBox txtCampo2;
         private System.Windows.Forms.TextBox txtCampo3;
+        private System.Windows.Forms.TextBox txtCampo4;
     }
 }
 
