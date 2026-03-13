@@ -1,0 +1,10 @@
+C:\Users\kaio.mfernandes\source\repos\Atividade_If_Else\Atividade_If_Else\bin\Debug\Atividade_If_Else.exe.config
+C:\Users\kaio.mfernandes\source\repos\Atividade_If_Else\Atividade_If_Else\bin\Debug\Atividade_If_Else.exe
+C:\Users\kaio.mfernandes\source\repos\Atividade_If_Else\Atividade_If_Else\bin\Debug\Atividade_If_Else.pdb
+C:\Users\kaio.mfernandes\source\repos\Atividade_If_Else\Atividade_If_Else\obj\Debug\Atividade_If_Else.csproj.AssemblyReference.cache
+C:\Users\kaio.mfernandes\source\repos\Atividade_If_Else\Atividade_If_Else\obj\Debug\Atividade_If_Else.Form1.resources
+C:\Users\kaio.mfernandes\source\repos\Atividade_If_Else\Atividade_If_Else\obj\Debug\Atividade_If_Else.Properties.Resources.resources
+C:\Users\kaio.mfernandes\source\repos\Atividade_If_Else\Atividade_If_Else\obj\Debug\Atividade_If_Else.csproj.GenerateResource.cache
+C:\Users\kaio.mfernandes\source\repos\Atividade_If_Else\Atividade_If_Else\obj\Debug\Atividade_If_Else.csproj.CoreCompileInputs.cache
+C:\Users\kaio.mfernandes\source\repos\Atividade_If_Else\Atividade_If_Else\obj\Debug\Atividade_If_Else.exe
+C:\Users\kaio.mfernandes\source\repos\Atividade_If_Else\Atividade_If_Else\obj\Debug\Atividade_If_Else.pdb
