@@ -33,7 +33,7 @@ namespace Atividade_If_Else
             // (Certifique-se que o nome da sua TextBox é txtCampo senão vai rolar um erro)
             double numero = double.Parse(txtCampo1.Text);
 
-            // 2. Lógica de verificação para número positivo e negativo
+            // 2. Lógica de verificação para número se ele for positivo ou negativo 
             if (numero > 0)
             {
                 MessageBox.Show("O número é Positivo.");
