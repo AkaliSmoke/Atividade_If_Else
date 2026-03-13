@@ -30,10 +30,10 @@ namespace Atividade_If_Else
         private void btnVerificarNumero_Click(object sender, EventArgs e)
         {
             // 1. Pega o valor da Textbox e converte para número
-            // (Certifique-se que o nome da sua TextBox é txtCampo)
+            // (Certifique-se que o nome da sua TextBox é txtCampo senão vai rolar um erro)
             double numero = double.Parse(txtCampo1.Text);
 
-            // 2. Lógica de verificação
+            // 2. Lógica de verificação para número positivo e negativo
             if (numero > 0)
             {
                 MessageBox.Show("O número é Positivo.");
@@ -51,7 +51,7 @@ namespace Atividade_If_Else
         private void btnDeterminarMaior_Click(object sender, EventArgs e)
         {
             {
-                // 1. Pega os valores das três TxtCampo
+                // 1. Pega os valores das três dos txtCampo1, txtCampo2 e txtCampo3
                 double n1 = double.Parse(txtCampo1.Text);
                 double n2 = double.Parse(txtCampo2.Text);
                 double n3 = double.Parse(txtCampo3.Text);
@@ -72,7 +72,7 @@ namespace Atividade_If_Else
                     maior = n3;
                 }
 
-                // 3. Mostra o resultado na tela
+                // 3. Mostra o resultado na tela do usuário
                 MessageBox.Show("O maior número é: " + maior);
             }
         }
@@ -140,10 +140,10 @@ namespace Atividade_If_Else
             double n2 = double.Parse(txtCampo2.Text);
             double n3 = double.Parse(txtCampo3.Text);
 
-            // 3. Calcula a média
+            // 3. Calcula a média do aluno 
             double media = (n1 + n2 + n3) / 3;
 
-            // 4. Verifica se está aprovado ou reprovado
+            // 4. Verifica se está aprovado ou reprovado aluno(a)
             if (media >= 7)
             {
                 MessageBox.Show("O aluno " + nome + " está APROVADO com média " + media);
